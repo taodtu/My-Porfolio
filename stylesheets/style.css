@@ -1,3 +1,6 @@
+body{
+ font-size: 100%;
+}
 header{
  display:flex;
  text-align: center;
@@ -10,29 +13,67 @@ h1{
  width:75%;
  text-align: left;
  padding-left: 30px;
+ color: rgb(120, 120, 148);
+}
+h4{
+ margin: 20px;
+}
+ul {
+  list-style-type: none;
+  margin-top: 5px;
+  padding-inline-start: 15px;
+  
+}
+
+hr {
+  border: 3px solid;
+  color: rgb(120, 120, 148);
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px;
 }
 .row {
   display: flex;
 }
 .column-left {
-  width: 25%;
+  width: 160px;
+  flex-direction: column;
   display: flex;
-  line-height: 24px;
-  font-size: 16px;
-  padding: 0 10px;
   justify-content: space-between;
- 
+  font-size: 1.3em;
+  background-color: rgb(120, 120, 148);
+  color: aliceblue;
+  border-radius: 10px;
 }
 
 .column-right {
- 
-  width: 75%;
   display: flex;
   line-height: 24px;
   font-size: 16px;
   padding: 0 10px;
   justify-content: space-between;
 }
+a{
+ color: aliceblue
+}
+a:hover{
+ color: rgb(189, 199, 48);
+ text-decoration: underline;
+}
 #profile{
  padding-left: 80px;
+ padding-top: 15px;
+ width:60px;
+ height:60px;
+}
+#navi-photo{
+ 
+ padding-top: 10px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width:60px;
+ height:60px;
+}
+#home{
+ margin-top: 6px;
 }
