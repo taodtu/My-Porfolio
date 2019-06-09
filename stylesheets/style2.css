@@ -1,15 +1,21 @@
 h5{
  margin: 10px;
 }
+h3{
+ color: rgb(157, 69, 179);
+ margin-bottom: 0em;
+ margin-top: 0em;
+}
 h1{
  margin: 0.3em;
  margin-bottom: 0em;
 }
 p{
  text-align: justify;
+ size: 0.8em;
 }
 .page{
- max-width: 840px;
+ max-width: 800px;
  align-items: center;
  background-color: rgb(238, 238, 238);
  font-family: sans-serif;
@@ -59,13 +65,122 @@ a:hover{
 }
 #me{
  float: left;
- width: 100px;
- height: 100px;
+ width: 120px;
+ height: 120px;
  border-radius: 50%;
  border: 2em;
  margin-right: 1em;
 }
 
+.app-blocks{
+ color: rgb(6, 40, 70);
+ display: grid;
+ grid-template-rows: 6fr 4fr;
+ grid-gap: 1em;
+}
+li{
+ margin-top:.5em; 
+ size: 0.8em;
+}
+.top3{
+ display: grid;
+ grid-template-columns: 6fr 4fr;
+ grid-gap: 1em;
+}
+.top-left{
+ display: grid;
+ grid-template-rows: 4fr 6fr;
+ grid-gap: 1em;
+}
+#experience{
+ background-color: rgb(221, 246, 250);
+ border-radius: 1em;
+ display: grid;
+ grid-template-columns: 1fr 1.5fr;
+ grid-gap: .1em;
+ align-items: center;
+ justify-content: space-around;
+}
+.description{
+ margin-top: 0em;
+ padding-right: 1em;
+}
+.icon{
+ max-width: 100%;
+ width: 5em;
+ height: 5em;
+ margin: auto;
+ padding-left: 4em;
+}
+#project{
+ background-color: rgb(247, 225, 216);
+ border-radius: 1em;
+ display: grid;
+ grid-template-columns: 1fr 1.5fr;
+ grid-gap: .1em;
+ align-items: center;
+ justify-content: space-around;
+}
+.top-right{
+ border-radius: 1em;
+ background-color: rgb(249, 250, 219);
+ display: grid;
+ grid-template-rows: 1fr 1.5fr;
+ grid-gap: .1em;
+ align-items: center;
+ justify-content: space-around;
+}
+#skill-icon{
+ max-width: 100%;
+ width: 6em;
+ height: 6em;
+ margin: auto;
+ padding-left: 3em;
+}
+#skill-list{
+ list-style:square;
+}
+.hobby{
+ border-radius: 1em;
+ display: flex;
+ flex-direction: row;
+ background-color: rgb(223, 250, 241);
+}
+#fun{
+ border-radius: 1em;
+ max-width: 100%;
+ width: 20em;
+ height: 20em;;
+}
+#fun-grid{
+ padding-left: 3em;
+ display: grid;
+ grid-template-rows: 2.5fr 1fr;
+ grid-gap: .1em;
+ align-items: center;
+ justify-content: space-around;
+}
+#fun-grid-icon{
+ padding-top:1em;
+ display: grid;
+ grid-template-columns: repeat(4, 4em);
+  grid-auto-rows: 4em;
+  grid-gap: 1em;
+}
+.icon-fun{
+ max-width: 100%;
+ width: 3em;
+ height: 3em;
+ margin: auto;
+ padding-left: 1em;
+}
+#fun-text{
+ padding-left: 3em;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+}
 hr {
   border: 1px solid;
   color: rgb(120, 120, 148);
