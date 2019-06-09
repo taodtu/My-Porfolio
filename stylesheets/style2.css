@@ -1,0 +1,74 @@
+h5{
+ margin: 10px;
+}
+h1{
+ margin: 0.3em;
+ margin-bottom: 0em;
+}
+p{
+ text-align: justify;
+}
+.page{
+ max-width: 840px;
+ align-items: center;
+ background-color: rgb(238, 238, 238);
+ font-family: sans-serif;
+ margin: auto;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-title{
+ display: flex;
+  flex-direction: row;
+}
+a{
+ color: rgb(6, 29, 49);
+ text-decoration: none;
+}
+a:hover{
+ color: rgb(189, 199, 48);
+ text-decoration: underline;
+}
+.header-text{
+ flex:2;
+ margin-left: 3em;
+ justify-content: space-around;
+}
+.title-photo{
+ flex:1.2;
+ align-items:flex-end;
+ justify-content: flex-end;
+}
+#profile{
+ align-self: flex-end;
+ width:50px;
+ height:50px;
+ padding-left: 14em;
+}
+#sub-title{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+#title-text{
+ margin: 0em;
+}
+#me{
+ float: left;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ border: 2em;
+ margin-right: 1em;
+}
+
+hr {
+  border: 1px solid;
+  color: rgb(120, 120, 148);
+  border-radius: 3px;
+  box-shadow: 0 0 1px 1px;
+}
