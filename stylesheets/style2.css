@@ -1,5 +1,5 @@
-h5{
- margin: 10px;
+h4{
+ margin: 1.2em;
 }
 h3{
  color: rgb(157, 69, 179);
@@ -12,14 +12,19 @@ h1{
 }
 p{
  text-align: justify;
- size: 0.8em;
+ font-size: 1em;
+ line-height: 1.4em;
 }
 .page{
  max-width: 800px;
  align-items: center;
  background-color: rgb(238, 238, 238);
  font-family: sans-serif;
+ font: 100%;
  margin: auto;
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .navigation{
   display: flex;
@@ -74,23 +79,22 @@ a:hover{
 
 .app-blocks{
  color: rgb(6, 40, 70);
- display: grid;
- grid-template-rows: 6fr 4fr;
- grid-gap: 1em;
+ display: flex;
+ flex-direction: column;
 }
 li{
  margin-top:.5em; 
- size: 0.8em;
+ font-size: 1em;
 }
 .top3{
  display: grid;
  grid-template-columns: 6fr 4fr;
- grid-gap: 1em;
+ grid-gap: 0.6em;
 }
 .top-left{
  display: grid;
  grid-template-rows: 4fr 6fr;
- grid-gap: 1em;
+ grid-gap: 0.6em;
 }
 #experience{
  background-color: rgb(221, 246, 250);
@@ -141,6 +145,7 @@ li{
  list-style:square;
 }
 .hobby{
+ margin-top: 0.6em;
  border-radius: 1em;
  display: flex;
  flex-direction: row;
@@ -155,7 +160,7 @@ li{
 #fun-grid{
  padding-left: 3em;
  display: grid;
- grid-template-rows: 2.5fr 1fr;
+ grid-template-rows: 2fr 1fr;
  grid-gap: .1em;
  align-items: center;
  justify-content: space-around;
